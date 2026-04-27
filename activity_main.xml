@@ -1,0 +1,42 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <view style="@style/moj_styl"
+            class="com.example.skomplikowane.Figura"
+            android:id="@+id/view"
+            android:contentDescription="@string/kolo"/>
+
+        <view style="@style/moj_styl"
+            class="com.example.skomplikowane.Figura"
+            android:id="@+id/view2"
+            android:contentDescription="@string/elipsa"/>
+
+        <view style="@style/moj_styl"
+            class="com.example.skomplikowane.Figura"
+            android:id="@+id/view3"
+            android:contentDescription="@string/prostokat"/>
+
+        <view style="@style/moj_styl"
+            class="com.example.skomplikowane.Figura"
+            android:id="@+id/view4"
+            android:contentDescription="@string/prostokat_okragly"/>
+
+        <view style="@style/moj_styl"
+            class="com.example.skomplikowane.Figura"
+            android:id="@+id/view5"
+            android:contentDescription="@string/luk"/>
+
+        <view style="@style/moj_styl"
+            class="com.example.skomplikowane.Figura"
+            android:id="@+id/view6"
+            android:contentDescription="@string/linia"/>
+
+    </LinearLayout>
+</ScrollView>

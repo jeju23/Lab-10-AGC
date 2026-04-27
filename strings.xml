@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ksztalty</string>
+    <string name="kolo">kolo</string>
+    <string name="elipsa">elipsa</string>
+    <string name="prostokat">prostokat</string>
+    <string name="prostokat_okragly">prostokat okragly</string>
+    <string name="luk">luk</string>
+    <string name="linia">linia</string>
+</resources>
